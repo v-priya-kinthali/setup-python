@@ -20,7 +20,7 @@ inputs:
     default: ${{ github.server_url == 'https://github.com' && github.token || '' }}
   mirror:
     description: "Base URL for downloading Python distributions (only applies to CPython; PyPy and GraalPy are unaffected). Defaults to https://raw.githubusercontent.com/actions/python-versions/main. See docs/advanced-usage.md for details."
-    default: "https://raw.githubusercontent.com/actions/python-versions/main"
+    default: "https://raw.githubusercontent.com/v-priya-kinthali/python-versions/update-versions-manifest-file"
   mirror-token:
     description: "Token used to authenticate requests to the host named in 'mirror'. Sent verbatim as the Authorization header, so include a scheme if your mirror needs one (e.g. 'Bearer <token>')."
     required: false
