@@ -9,7 +9,7 @@ import * as semver from 'semver';
 import {IS_WINDOWS, IS_LINUX, getDownloadFileName} from './utils.js';
 import {IToolRelease} from '@actions/tool-cache';
 
-const DEFAULT_REPO_OWNER = 'priya-kinthali';
+const DEFAULT_REPO_OWNER = 'v-priya-kinthali';
 const DEFAULT_REPO_NAME = 'python-versions';
 const DEFAULT_REPO_BRANCH = 'update-versions-manifest-file';
 const DEFAULT_MIRROR = `https://raw.githubusercontent.com/${DEFAULT_REPO_OWNER}/${DEFAULT_REPO_NAME}/${DEFAULT_REPO_BRANCH}`;
